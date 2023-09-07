@@ -1,3 +1,9 @@
+:root {
+  --font-color: #fff;
+  --background-color: #7f56fd;
+  --body-font: "Fira Sans", sans-serif;
+}
+
 html,
 body {
   width: 100%;
@@ -8,9 +14,27 @@ body {
 }
 
 body {
+  font-family: "Fira Sans", sans-serif;
+  line-height: 1.8;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
+
+h1 {
+  font-size: 50px;
+  font-weight: bold;
+  color: var(--font-color);
+  margin-top: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: var(--font-color);
+}
+
 .header {
   background: url("../images/header-background.png") no-repeat;
   background-size: cover;
@@ -33,8 +57,75 @@ body {
   z-index: -1;
 }
 
+.headerContent span {
+  font-size: 50px;
+  font-weight: bold;
+  color: var(--font-color);
+}
+
+.headerContent p {
+  display: inline-block;
+  font-size: 18px;
+  font-weight: 500;
+  color: #e6e6e6;
+}
+
 .headerContent {
   text-align: center;
   padding-top: 200px;
   padding-bottom: 140px;
+}
+
+.container-fluid {
+  float: right;
+}
+
+.headerButton {
+  padding: 11px 30px;
+  background-color: var(--font-color);
+  border-radius: 30px;
+  display: inline-block;
+  font-size: 15px;
+  color: #7f56fd;
+  font-family: "Fira Sans", sans-serif;
+  font-weight: bold;
+  margin-top: 30px;
+}
+
+.navbar {
+  padding-top: 30px;
+}
+
+.navbar a {
+  font-family: "Fira Sans", sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  color: var(--font-color);
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
+  color: rgb(251, 255, 0);
+}
+
+.navbar .navbar-brand {
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.navbar-brand:hover {
+  color: var(--font-color);
+}
+
+.navbar-toggler,
+.navbar-toggler-icon {
+  background-color: #ddd;
+}
+
+.navbar-toggler .icon-bar {
+  background-color: var(--font-color);
+}
+
+.navbar button {
+  color: var(--font-color);
 }
