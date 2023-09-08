@@ -18,6 +18,15 @@ body {
   line-height: 1.8;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+@media (min-width: 1400px) {
+  .container {
+    width: 1370px;
+    margin: 0 auto;
+  }
 }
 
 h1 {
@@ -27,12 +36,12 @@ h1 {
   margin-top: 0;
 }
 
-a {
-  text-decoration: none;
+h2 {
+  font-weight: bold;
 }
 
-a:visited {
-  color: var(--font-color);
+a {
+  text-decoration: none;
 }
 
 .header {
@@ -128,4 +137,68 @@ a:visited {
 
 .navbar button {
   color: var(--font-color);
+}
+
+.about__container {
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.aboutContent {
+  margin-top: 70px;
+}
+
+.aboutContent {
+  text-align: left;
+}
+
+.personalInfo {
+  margin-top: 30px;
+}
+
+.aboutButton {
+  padding: 11px 30px;
+  background-color: var(--background-color);
+  border-radius: 30px;
+  display: inline-block;
+  font-size: 18px;
+  color: var(--font-color);
+  margin-top: 30px;
+}
+
+.footer {
+  font-size: 16px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+  background-color: var(--background-color);
+  color: #e6e6e6;
+}
+
+.footer a {
+  color: #e6e6e6;
+}
+
+.contact {
+  margin: auto;
+  list-style: none;
+  display: flex;
+  padding-left: 0px;
+  justify-content: space-evenly;
+  padding: 55px;
+}
+
+@media (max-width: 576px) {
+  .headerContent {
+    padding-bottom: 200px;
+  }
+
+  .navbar a {
+    font-size: 20px;
+  }
+
+  .aboutMeDiv {
+    text-align: center;
+  }
 }
