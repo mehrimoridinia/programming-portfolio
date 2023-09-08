@@ -2,6 +2,8 @@
   --font-color: #fff;
   --background-color: #7f56fd;
   --body-font: "Fira Sans", sans-serif;
+  --body-paragraph-color: #5d5d5d;
+  --section-title: #273f59;
 }
 
 html,
@@ -107,7 +109,7 @@ a {
 
 .navbar a {
   font-family: "Fira Sans", sans-serif;
-  font-size: 15px;
+  font-size: 20px;
   font-weight: 300;
   color: var(--font-color);
 }
@@ -143,13 +145,15 @@ a {
   text-align: center;
   margin-top: 100px;
   margin-bottom: 100px;
+  color: var(--body-paragraph-color);
+}
+
+.sectionTitle {
+  color: var(--section-title);
 }
 
 .aboutContent {
   margin-top: 70px;
-}
-
-.aboutContent {
   text-align: left;
 }
 
@@ -187,6 +191,10 @@ a {
   padding-left: 0px;
   justify-content: space-evenly;
   padding: 55px;
+}
+
+.contact__footer {
+  font-size: 20px;
 }
 
 @media (max-width: 576px) {
