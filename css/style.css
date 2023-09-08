@@ -213,4 +213,14 @@ a {
   .aboutMeDiv {
     text-align: center;
   }
+
+  .contact {
+    display: block;
+    padding-top: 35px;
+    padding-bottom: 10px;
+  }
+
+  .footer li {
+    margin-bottom: 30px;
+  }
 }
