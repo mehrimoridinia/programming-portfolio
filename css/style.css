@@ -152,6 +152,10 @@ a {
   color: var(--section-title);
 }
 
+.parvinImg {
+  margin-bottom: 30px;
+}
+
 .aboutContent {
   margin-top: 70px;
   text-align: left;
