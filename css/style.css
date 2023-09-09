@@ -68,13 +68,13 @@ a {
   z-index: -1;
 }
 
-.headerContent h2 {
+.headerContent span {
   font-size: 50px;
   font-weight: bold;
   color: var(--font-color);
 }
 
-.headerContent p {
+.headerContent h2 {
   display: inline-block;
   font-size: 18px;
   font-weight: 500;
@@ -151,6 +151,9 @@ a {
 .sectionTitle {
   color: var(--section-title);
   font-weight: bold;
+  font-size: 28px;
+  margin-top: 0px;
+  padding-top: 0px;
 }
 
 .parvinImg {
@@ -183,6 +186,25 @@ a {
   text-align: center;
   background-color: var(--background-color);
   color: #e6e6e6;
+  background: url("../images/footer-backgroung.png") no-repeat;
+  background-size: cover;
+  position: relative;
+  z-index: 1;
+}
+
+.footer:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: -webkit-linear-gradient(
+    90deg,
+    rgba(108, 76, 206, 0.9) 0%,
+    rgba(127, 86, 253, 0.9) 100%
+  );
+  z-index: -1;
 }
 
 .footer a {
