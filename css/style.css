@@ -223,7 +223,7 @@ a {
   font-size: 20px;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 912px) {
   .headerContent {
     padding-bottom: 200px;
   }
@@ -233,6 +233,10 @@ a {
   }
 
   .aboutMeDiv {
+    text-align: center;
+  }
+
+  .meImg {
     text-align: center;
   }
 
