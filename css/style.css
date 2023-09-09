@@ -68,7 +68,7 @@ a {
   z-index: -1;
 }
 
-.headerContent span {
+.headerContent h2 {
   font-size: 50px;
   font-weight: bold;
   color: var(--font-color);
@@ -150,6 +150,7 @@ a {
 
 .sectionTitle {
   color: var(--section-title);
+  font-weight: bold;
 }
 
 .parvinImg {
