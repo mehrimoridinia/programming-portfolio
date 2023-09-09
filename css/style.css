@@ -84,7 +84,7 @@ a {
 .headerContent {
   text-align: center;
   padding-top: 200px;
-  padding-bottom: 140px;
+  padding-bottom: 160px;
 }
 
 .container-fluid {
@@ -225,7 +225,7 @@ a {
 
 @media (max-width: 912px) {
   .headerContent {
-    padding-bottom: 200px;
+    padding-bottom: 220px;
   }
 
   .navbar a {
