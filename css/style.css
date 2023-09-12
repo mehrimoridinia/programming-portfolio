@@ -51,6 +51,7 @@ a {
   background-size: cover;
   position: relative;
   z-index: 1;
+  color: var(--font-color);
 }
 
 .header:after {
@@ -68,7 +69,8 @@ a {
   z-index: -1;
 }
 
-.headerContent span {
+.headerContent span,
+.about__header_content span {
   font-size: 50px;
   font-weight: bold;
   color: var(--font-color);
@@ -101,6 +103,30 @@ a {
   font-family: "Fira Sans", sans-serif;
   font-weight: bold;
   margin-top: 30px;
+}
+
+.about__header_content p {
+  padding-top: 20px;
+}
+
+.about__header_content h1 {
+  position: relative;
+  top: -20px;
+}
+
+.portfolio__link {
+  color: var(--font-color);
+  text-decoration: underline;
+}
+
+.about__header {
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+
+.about__header_content .headerButton {
+  font-size: 18px;
+  margin-top: 10px;
 }
 
 .navbar {
@@ -148,6 +174,22 @@ a {
   color: var(--body-paragraph-color);
 }
 
+.skills__container {
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  color: var(--body-paragraph-color);
+}
+
+.skills__row {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.skill {
+  margin-bottom: 50px;
+}
+
 .sectionTitle {
   color: var(--section-title);
   font-weight: bold;
@@ -177,6 +219,13 @@ a {
   font-size: 18px;
   color: var(--font-color);
   margin-top: 30px;
+}
+
+.portfolio {
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  color: var(--body-paragraph-color);
 }
 
 .footer {
