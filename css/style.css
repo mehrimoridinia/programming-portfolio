@@ -16,7 +16,7 @@ body {
 }
 
 body {
-  font-family: "Fira Sans", sans-serif;
+  font-family: var(--body-font);
   line-height: 1.8;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -165,6 +165,29 @@ a {
 
 .navbar button {
   color: var(--font-color);
+}
+
+.contact__h1 {
+  font-size: 80px;
+}
+
+.contact__header {
+  margin-bottom: 40px;
+}
+
+.contact__app {
+  margin-bottom: 40px;
+}
+
+.contact__icon {
+  font-size: 40px;
+  color: rgb(251, 255, 0);
+}
+
+.contact__link {
+  color: var(--font-color);
+  font-size: 25px;
+  text-decoration: underline;
 }
 
 .about__container {
