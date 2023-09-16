@@ -223,6 +223,8 @@ a {
 
 .parvinImg {
   margin-bottom: 30px;
+  display: block;
+  margin: auto;
 }
 
 .aboutContent {
@@ -359,19 +361,29 @@ a {
 
 .contact {
   margin: auto;
-  list-style: none;
-  display: flex;
-  padding-left: 0px;
-  justify-content: space-evenly;
-  padding: 55px;
+  padding: 20px 25px;
+}
+
+.contact div {
+  margin: 0px 10px;
 }
 
 .contact__footer {
-  font-size: 20px;
+  font-size: 25px;
   padding: 0 55px;
 }
 
+.coder {
+  font-size: 14px;
+  padding-top: 45px;
+}
+
 @media (max-width: 912px) {
+  .container {
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+
   .headerContent {
     padding-bottom: 220px;
   }
@@ -384,10 +396,6 @@ a {
     text-align: center;
   }
 
-  .meImg {
-    text-align: center;
-  }
-
   .portfolio__single-section {
     max-width: 340px;
     margin-right: auto;
@@ -396,11 +404,26 @@ a {
 
   .contact {
     display: block;
-    padding-top: 35px;
+    padding-top: 10px;
     padding-bottom: 10px;
   }
 
-  .footer li {
-    margin-bottom: 30px;
+  .about__header_content span {
+    font-size: 42px;
+    text-align: center;
+  }
+
+  .about__header_content h1 {
+    font-size: 42px;
+  }
+
+  .header- .headerContent {
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 50px;
+  }
+
+  .parvinImg {
+    max-width: 340px;
   }
 }
